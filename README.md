@@ -1,21 +1,20 @@
-DevSync 🚀
+DevSync
 
 DevSync is a full-stack project management web application built for developers and small teams.
 
-It allows users to create projects, manage tasks, track progress, and organize their work in one place.
+It helps users create projects, manage tasks, track progress, and keep their work organized in one place.
 
-✨ Features
-🔐 User signup and login
-🔑 JWT authentication
-📁 Create and manage projects
-✅ Create and manage tasks
-🎯 Task priorities
-🔄 Task status tracking
-👥 Task assignment
-📊 Project dashboard
-📎 File management
-🌐 REST API backend
-🛠️ Tech Stack
+Features
+User signup and login
+JWT authentication
+Create and manage projects
+Create and manage tasks
+Task priorities
+Task status tracking
+Task assignment
+Project dashboard
+File management
+Tech Stack
 
 Frontend
 
@@ -31,24 +30,7 @@ Express.js
 MongoDB
 Mongoose
 JWT
-📂 Project Structure
-DevSync/
-├── backend/
-│   ├── middleware/
-│   ├── models/
-│   ├── routes/
-│   ├── package.json
-│   └── server.js
-│
-├── frontend/
-│   ├── app/
-│   ├── public/
-│   ├── package.json
-│   └── ...
-│
-├── .gitignore
-└── README.md
-🚀 Getting Started
+Getting Started
 
 Clone the repository:
 
@@ -72,25 +54,27 @@ cd frontend
 npm install
 npm run dev
 
-Then open:
+Open http://localhost:3000 in your browser.
 
-http://localhost:3000
-🔒 Environment Variables
+Project Structure
+DevSync/
+├── backend/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   └── server.js
+│
+├── frontend/
+│   ├── app/
+│   └── public/
+│
+├── .gitignore
+└── README.md
+About
 
-The .env file contains private configuration and is intentionally excluded from Git.
+I built DevSync to practice full-stack development and learn how a frontend, backend, database, and authentication system work together in a real-world application.
 
-Required variables:
-
-MONGO_URI
-JWT_SECRET
-PORT
-💡 Why I Built This
-
-I built DevSync to get practical experience with full-stack development.
-
-While building it, I worked with authentication, REST APIs, MongoDB, database models, Next.js, React, TypeScript, and connecting a frontend with a backend.
-
-🔮 Future Improvements
+Future Improvements
 Team invitations
 Real-time collaboration
 Notifications
@@ -98,10 +82,8 @@ Better file sharing
 Search and filtering
 Project analytics
 Deployment
-👨‍💻 Author
+Author
 
 Sambodh Kumar Sahu
 
-CSE Student — Delhi Technological University (DTU)
-
-GitHub: @sambodkumarhsahu
+CSE — Delhi Technological University (DTU)
